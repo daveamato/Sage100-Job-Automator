@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/BurnetteFoods/SageVIAutomator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Created VI process launcher method.</releaseNotes>
+    <copyright>Copyright(c) 2016 Burnette Foods, Inc.</copyright>
+    <tags>Integration</tags>
+  </metadata>
+</package>
