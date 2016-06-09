@@ -30,13 +30,13 @@ namespace SageVIAutomator
             this.fullPath = uncPath + @"\" + PROGRAM_FILE;
         }
 
-        public void runJob()
+        public Process runJob()
         {
             var processInfo = new ProcessStartInfo(fullPath);
             processInfo.WorkingDirectory = uncPath;
             processInfo.Arguments = string.Format("..launcher sota.ini ..SOA Startup.M4P -ARG DIRECT UION {0} {1} {2} {3} AUTO", username, password, company, jobName);
 
-            Process.Start(processInfo);
+            return Process.Start(processInfo);
         }
     }
 }
