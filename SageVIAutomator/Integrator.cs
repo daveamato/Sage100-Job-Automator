@@ -42,9 +42,11 @@ namespace SageVIAutomator
             return Process.Start(processInfo);
         }
 
-        public Process runJob_WaitOnCompletion()
+        public void runJobToCompletion()
         {
+            Process p = runJob();
 
+            p.WaitForExit();
         }
     }
 }
