@@ -6,12 +6,11 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/BurnetteFoods/SageVIAutomator</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Created VI process launcher method.</releaseNotes>
-    <copyright>Copyright(c) 2016 Burnette Foods, Inc.</copyright>
-    <tags>Integration</tags>
+    <description>Automatically launches Sage 100 VI jobs through C#</description>
+    <releaseNotes>Added run until finished functionality.</releaseNotes>
+    <copyright>Copyright 2017 Burnette Foods</copyright>
+    <tags>Sage100</tags>
   </metadata>
 </package>
